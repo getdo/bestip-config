@@ -1,2 +1,0 @@
-8.219.161.129:205 weight=72 priority=72
-45.249.244.79:443 weight=11 priority=11
