@@ -1,3 +1,7 @@
 199.15.78.154:34237 weight=87 priority=11
 
 199.15.78.154:34237 weight=108 priority=9
+8.218.136.25:2083 weight=92 priority=11
+8.218.110.180:2053 weight=91 priority=11
+8.218.181.189:2087 weight=75 priority=13
+8.210.117.18:2087 weight=81 priority=12
