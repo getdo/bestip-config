@@ -1,0 +1,24 @@
+[logging]
+level = "debug"
+output = "stdout"
+format = "text"
+
+[servers.sin]
+bind = "0.0.0.0:1443"
+protocol = "tcp"
+balance = "weight"
+
+[servers.hkg]
+bind = "0.0.0.0:2443"
+protocol = "tcp"
+balance = "weight"
+
+[servers.sin.discovery]
+interval = "60s"
+kind = "plaintext"
+plaintext_endpoint = "https://ghproxy.com/https://raw.githubusercontent.com/getdo/bestip-config/main/sin.txt"
+
+[servers.hkg.discovery]
+interval = "60s"
+kind = "plaintext"
+plaintext_endpoint = "https://ghproxy.com/https://raw.githubusercontent.com/getdo/bestip-config/main/hkg.txt"
