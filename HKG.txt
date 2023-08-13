@@ -1,2 +1,0 @@
-118.193.38.122:443 weight=10 priority=10
-101.36.111.100:443 weight=11 priority=9
