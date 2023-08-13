@@ -1,1 +1,1 @@
-# bestip-config
+This is the updated content.
