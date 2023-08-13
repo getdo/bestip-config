@@ -6,12 +6,12 @@ format = "text"
 [servers.sin]
 bind = "0.0.0.0:1443"
 protocol = "tcp"
-balance = "weight"
+balance = "iphash"
 
 [servers.hkg]
 bind = "0.0.0.0:2443"
 protocol = "tcp"
-balance = "weight"
+balance = "iphash"
 
 [servers.sin.discovery]
 interval = "60s"
