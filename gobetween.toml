@@ -16,9 +16,9 @@ balance = "weight"
 [servers.sin.discovery]
 interval = "60s"
 kind = "plaintext"
-plaintext_endpoint = "https://ghproxy.com/https://raw.githubusercontent.com/getdo/bestip-config/main/sin.txt"
+plaintext_endpoint = "https://ghproxy.com/https://raw.githubusercontent.com/getdo/bestip-config/main/SIN.txt"
 
 [servers.hkg.discovery]
 interval = "60s"
 kind = "plaintext"
-plaintext_endpoint = "https://ghproxy.com/https://raw.githubusercontent.com/getdo/bestip-config/main/hkg.txt"
+plaintext_endpoint = "https://ghproxy.com/https://raw.githubusercontent.com/getdo/bestip-config/main/HKG.txt"
