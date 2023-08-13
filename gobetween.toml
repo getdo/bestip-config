@@ -6,12 +6,12 @@ format = "text"
 [servers.sin]
 bind = "0.0.0.0:1443"
 protocol = "tcp"
-balance = "leastbandwidth"
+balance = "weight"
 
 [servers.hkg]
 bind = "0.0.0.0:2443"
 protocol = "tcp"
-balance = "leastbandwidth"
+balance = "weight"
 
 [servers.sin.discovery]
 interval = "60s"
