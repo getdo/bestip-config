@@ -1,3 +1,0 @@
-199.15.78.154:34237 weight=92 priority=1
-118.193.38.122:443 weight=13 priority=13
-101.36.111.100:443 weight=5 priority=5
