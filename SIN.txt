@@ -64,3 +64,34 @@
 8.222.181.139:443 weight=50 priority=50
 8.219.0.162:8443 weight=67 priority=33
 
+
+8.219.40.38:443 weight=37 priority=63
+8.219.66.156:443 weight=39 priority=61
+8.219.106.156:443 weight=88 priority=12
+8.219.156.173:443 weight=43 priority=57
+8.219.228.186:443 weight=42 priority=58
+8.219.174.104:443 weight=47 priority=53
+8.219.170.170:443 weight=44 priority=56
+8.219.251.81:443 weight=63 priority=37
+8.222.138.164:443 weight=75 priority=25
+8.222.140.87:443 weight=50 priority=50
+8.222.137.192:443 weight=46 priority=54
+8.222.193.208:443 weight=69 priority=31
+8.222.198.105:443 weight=82 priority=18
+8.222.224.17:443 weight=39 priority=61
+8.222.202.163:443 weight=47 priority=53
+8.222.211.16:443 weight=79 priority=21
+8.222.212.172:443 weight=83 priority=17
+8.222.209.223:443 weight=42 priority=58
+8.222.226.15:443 weight=62 priority=38
+8.222.221.109:443 weight=84 priority=16
+8.222.213.221:443 weight=47 priority=53
+8.222.197.251:443 weight=40 priority=60
+8.222.244.123:443 weight=74 priority=26
+8.222.221.86:443 weight=62 priority=38
+8.222.214.231:443 weight=44 priority=56
+8.222.222.64:443 weight=45 priority=55
+8.222.221.90:443 weight=84 priority=16
+8.222.249.98:443 weight=43 priority=57
+8.222.254.91:443 weight=43 priority=57
+8.222.253.235:443 weight=36 priority=64
