@@ -1,0 +1,10 @@
+version: '3'
+services:
+  gobetween:
+    container_name: gobetween
+    image: yyyar/gobetween:latest
+    ports:
+      - "1443:1443"
+      - "2443:2443"
+    command: ["/gobetween", "from-url", "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/gobetween.toml"]
+    restart: unless-stopped
