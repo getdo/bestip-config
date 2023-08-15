@@ -95,3 +95,6 @@
 8.222.249.98:443 weight=43 priority=57
 8.222.254.91:443 weight=43 priority=57
 8.222.253.235:443 weight=36 priority=64
+
+
+35.198.199.14:443 weight=89 priority=11
