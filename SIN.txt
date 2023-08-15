@@ -98,3 +98,5 @@
 
 
 35.198.199.14:443 weight=89 priority=11
+
+4.194.145.201:6666 weight=63 priority=37
