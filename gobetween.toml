@@ -3,22 +3,38 @@ level = "debug"
 output = "stdout"
 format = "text"
 
+[defaults] 
+max_connections = 10000
+client_idle_timeout = "1m"
+backend_idle_timeout = "1m"
+backend_connection_timeout = "2s"
+
 [servers.sin]
 bind = "0.0.0.0:1443"
 protocol = "tcp"
 balance = "weight"
 
+  [servers.sin.discovery]
+  interval = "600s"
+  kind = "plaintext"
+  plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/SIN.txt"
+
+  [servers.sin.healthcheck]
+  kind = "ping"
+  interval = "300s"
+  ping_timeout_duration = "500ms"
+  
 [servers.hkg]
 bind = "0.0.0.0:2443"
 protocol = "tcp"
 balance = "weight"
 
-[servers.sin.discovery]
-interval = "600s"
-kind = "plaintext"
-plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/SIN.txt"
+  [servers.hkg.discovery]
+  interval = "600s"
+  kind = "plaintext"
+  plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/HKG.txt"
 
-[servers.hkg.discovery]
-interval = "600s"
-kind = "plaintext"
-plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/HKG.txt"
+  [servers.hkg.healthcheck]
+  kind = "ping"
+  interval = "300s"
+  ping_timeout_duration = "500ms"
