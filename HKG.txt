@@ -8,3 +8,5 @@
 47.75.122.158:443 weight=54 priority=46
 154.3.38.32:23301 weight=67 priority=33
 154.3.33.180:10005 weight=74 priority=26
+
+199.15.78.37:37067 weight=93 priority=7
