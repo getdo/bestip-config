@@ -3,12 +3,6 @@ level = "debug"
 output = "stdout"
 format = "text"
 
-[defaults] 
-max_connections = 10000
-client_idle_timeout = "1m"
-backend_idle_timeout = "1m"
-backend_connection_timeout = "2s"
-
 [servers.sin]
 bind = "0.0.0.0:1443"
 protocol = "tcp"
