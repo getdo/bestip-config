@@ -15,7 +15,7 @@ balance = "weight"
 
   [servers.sin.healthcheck]
   kind = "ping"
-  interval = "300s"
+  interval = "60s"
   ping_timeout_duration = "500ms"
   
 [servers.hkg]
@@ -30,5 +30,5 @@ balance = "weight"
 
   [servers.hkg.healthcheck]
   kind = "ping"
-  interval = "300s"
+  interval = "60s"
   ping_timeout_duration = "500ms"
