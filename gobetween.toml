@@ -14,9 +14,12 @@ balance = "weight"
   plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/SIN.txt"
 
   [servers.sin.healthcheck]
-  kind = "ping"
-  interval = "60s"
-  ping_timeout_duration = "500ms"
+  kind = "exec"
+  interval = "600s"
+  timeout = "3s"
+  exec_command = "/usr/share/cf_ip_healthcheck.sh"
+  exec_expected_positive_output = "1"
+  exec_expected_negative_output = "0"
   
 [servers.hkg]
 bind = "0.0.0.0:2443"
@@ -29,6 +32,9 @@ balance = "weight"
   plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/HKG.txt"
 
   [servers.hkg.healthcheck]
-  kind = "ping"
-  interval = "60s"
-  ping_timeout_duration = "500ms"
+  kind = "exec"
+  interval = "600s"
+  timeout = "3s"
+  exec_command = "/usr/share/cf_ip_healthcheck.sh"
+  exec_expected_positive_output = "1"
+  exec_expected_negative_output = "0"
