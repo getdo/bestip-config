@@ -27,7 +27,7 @@ protocol = "tcp"
 balance = "weight"
 
   [servers.hkg.discovery]
-  interval = "5s"
+  interval = "600s"
   kind = "plaintext"
   plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/HKG.txt"
 
