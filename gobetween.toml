@@ -15,7 +15,7 @@ balance = "weight"
 
   [servers.sin.healthcheck]
   kind = "exec"
-  interval = "10s"
+  interval = "600s"
   timeout = "5s"
   exec_command = "/usr/share/cf_ip_healthcheck.sh"
   exec_expected_positive_output = "1"
@@ -33,7 +33,7 @@ balance = "weight"
 
   [servers.hkg.healthcheck]
   kind = "exec"
-  interval = "10s"
+  interval = "600s"
   timeout = "5s"
   exec_command = "/usr/share/cf_ip_healthcheck.sh"
   exec_expected_positive_output = "1"
