@@ -7,5 +7,5 @@ services:
       - "1443:1443"
       - "2443:2443"
       - "3443:3443"
-    command: ["/gobetween", "from-url", "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/gobetween.toml"]
+    command: ["/gobetween", "from-url", "https://gh-proxy.com/raw.githubusercontent.com/getdo/bestip-config/main/gobetween.toml"]
     restart: unless-stopped
