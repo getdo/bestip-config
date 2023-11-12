@@ -11,7 +11,7 @@ balance = "weight"
   [servers.sin.discovery]
   interval = "600s"
   kind = "plaintext"
-  plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/SIN.txt"
+  plaintext_endpoint = "https://gh-proxy.com/raw.githubusercontent.com/getdo/bestip-config/main/SIN.txt"
 
   [servers.sin.healthcheck]
   kind = "exec"
@@ -29,7 +29,7 @@ balance = "weight"
   [servers.hkg.discovery]
   interval = "600s"
   kind = "plaintext"
-  plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/HKG.txt"
+  plaintext_endpoint = "https://gh-proxy.com/raw.githubusercontent.com/getdo/bestip-config/main/HKG.txt"
 
   [servers.hkg.healthcheck]
   kind = "exec"
@@ -47,7 +47,7 @@ balance = "weight"
   [servers.nrt.discovery]
   interval = "600s"
   kind = "plaintext"
-  plaintext_endpoint = "https://ghproxy.com/raw.githubusercontent.com/getdo/bestip-config/main/NRT.txt"
+  plaintext_endpoint = "https://gh-proxy.com/raw.githubusercontent.com/getdo/bestip-config/main/NRT.txt"
 
   [servers.nrt.healthcheck]
   kind = "exec"
