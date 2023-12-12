@@ -51,3 +51,4 @@
 54.92.9.4:15118 weight=35523 priority=1
 52.195.161.79:8443 weight=39181 priority=1
 13.230.34.30:443 weight=29702 priority=5298
+154.12.191.95:61241 weight=11606 priority=23394
