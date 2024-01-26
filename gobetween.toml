@@ -3,10 +3,6 @@ level = "debug"
 output = "stdout"
 format = "text"
 
-[api]
-enabled = true  # true | false
-bind = ":1888"  # bind host:port
-
 [metrics]
 enabled = true # false | true
 bind = ":9284"  # "host:port"
