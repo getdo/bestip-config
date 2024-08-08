@@ -35,3 +35,5 @@
 15.168.12.177:10058 weight=41905 priority=1
 54.65.210.183:54177 weight=37490 priority=1
 54.92.9.4:15118 weight=28250 priority=6750
+23.106.146.86:43517 weight=42278 priority=1
+45.78.36.98:23653 weight=41899 priority=1
